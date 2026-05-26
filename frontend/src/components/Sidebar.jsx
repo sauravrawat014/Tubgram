@@ -29,7 +29,7 @@ export default function Sidebar({open, setOpen}){
     }
 
     return(
-        <div className={`fixed top-0 left-0 bg-gray-900 h-screen text-white transition-all duration-300 ${open ? "w-52" : "w-16"}`}
+        <div className={`fixed top-0 left-0 bg-gray-900 h-screen text-white transition-all duration-300 ${open ? "w-52" : "w-12"}`}
         >
 
             <div className='p-4 cursor-pointer flex gap-10' onClick={()=>setOpen(!open)}>
