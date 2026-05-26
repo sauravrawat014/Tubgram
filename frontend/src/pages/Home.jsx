@@ -40,7 +40,7 @@ export default function Home(){
              {showPopup && (<InterestPopup onComplete={handlePopup}/>)}
               <Sidebar open={open} setOpen={setOpen}/>
 
-            <div className={`flex-1 transition-all duration-300 ${open ? "ml-52" : "ml-16"}`}>
+            <div className={`flex-1 transition-all duration-300 ${open ? "ml-52" : "ml-12"}`}>
               
             <Navbar setTopic={setTopic} onSearch={fetchData}/>
             
