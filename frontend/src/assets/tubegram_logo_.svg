@@ -1,0 +1,14 @@
+<svg width="100%" viewBox="185 44 310 82" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Tubegram logo</title>
+  <desc>Tubegram logo with bar chart icon and wordmark</desc>
+
+  <rect x="190" y="48" width="64" height="64" rx="14" fill="#2563eb"/>
+
+  <rect x="204" y="90" width="10" height="24" rx="2" fill="white" opacity="1"/>
+  <rect x="218" y="80" width="10" height="34" rx="2" fill="white" opacity="0.75"/>
+  <rect x="232" y="86" width="10" height="28" rx="2" fill="white" opacity="0.45"/>
+
+  <text x="272" y="98" font-family="system-ui, sans-serif" font-size="38" font-weight="800" letter-spacing="-1.5" fill="#ffffff">tube</text>
+  <text x="356" y="98" font-family="system-ui, sans-serif" font-size="38" font-weight="800" letter-spacing="-1.5" fill="#2563eb">gram</text>
+  <text x="273" y="118" font-family="system-ui, sans-serif" font-size="11" letter-spacing="3" fill="#94a3b8">SOCIAL AGGREGATOR</text>
+</svg>
