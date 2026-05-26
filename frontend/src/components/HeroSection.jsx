@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 const topics = [
     "Technology", "Finance", "Sports", "Science", "Gaming", "World"
 ]
@@ -28,10 +28,12 @@ export default function HeroSection(){
 
             </div>
 
-            <a className="text-white bg-blue-500 hover:bg-blue-600 px-5 py-2 mt-7 rounded-full font-bold" href="/login">
-                <button>Login & pick your interests →</button>
-            </a>
-
+            <Link
+        to="/login"
+        className="text-white bg-blue-500 hover:bg-blue-600 px-5 py-2 mt-7 rounded-full font-bold"
+      >
+        Login & pick your interests →
+      </Link>
             
         </div>
     )
