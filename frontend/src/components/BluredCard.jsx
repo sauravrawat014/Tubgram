@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const PREVIEW_CARDS = [
   { bg: "bg-[#1a3a5c]", title: "Global markets surge as inflation cools", src: "BBC News" },
   { bg: "bg-[#1a3a2a]", title: "OpenAI announces real-time reasoning model", src: "TechCrunch" },
@@ -26,9 +27,12 @@ export default function BluredCard(){
             <p className="text-xs text-gray-500 mb-4 leading-relaxed">
               Login and pick your interests<br />to unlock your feed
             </p>
-            <a href="/login" className="bg-[#0f1923] hover:bg-[#1a2d42] text-white text-xs font-bold px-6 py-2.5 rounded-lg inline-block transition">
-              Login &amp; pick interests →
-            </a>
+            <Link
+            to="/login"
+            className="bg-[#0f1923] hover:bg-[#1a2d42] text-white text-xs font-bold px-6 py-2.5 rounded-lg inline-block transition"
+          >
+            Login &amp; pick interests →
+          </Link>
                 </div>
             </div>
         </div>
